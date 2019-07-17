@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+header{
+    background-color: black;
+    text-align: center;
+    padding: 7px;
+}
+header h1{
+    color: white;
+    font-size: 22px;
+}
+header a{
+    text-decoration: none;
+    font-size: 15px;
+    color: seagreen;
+}
+nav{
+    border-bottom: 1px solid;
+}
+nav ul{
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 5px 19px;
+}
+nav ul li a:hover{ background-color: seagreen; }
+.heading{
+    text-align: center;
+    padding: 50px 0;
+}
+.heading h1{
+    font-size: 2em;
+}
+.heading p{
+    font-size: 14px;
+}
+.con-box{
+	
+}
+.container{
+   width:1200px;
+    margin: auto;
+}
+aside{
+    width: 20%;
+    float: left;
+}
+aside ul{}
+aside ul li{
+	list-style: none;
+}
+aside ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #777070;
+    padding: 6px 0;
+    display: block;
+}
+aside ul li a:hover{color: black;}
+.content{
+    width: 80%;
+    float: left;
+}
+.content .content-box{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+.content-box img{
+    max-width: 100%;
+}
+.content-box h5{
+    font-size: 18px;
+    color: #777070;
+}
+.content-box img:hover{opacity: 0.5;}
+
+.new{
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	padding-top: 50px; 
+}
+.one{
+	width: 33.33%;
+	float: left;
+
+}
+.new .two{
+	background-color: #f2ebeb;
+	overflow: hidden;
+	padding: 50px 0;
+}
